@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .responsive-layout {
+    @apply sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl max-w-[1540px];
+  }
+}
+
+@layer components {
+  .responsive-padding {
+    @apply sm:px-[30px] md:px-[20px] lg:px-[10px] xl:px-[10px];
+  }
+}
