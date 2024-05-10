@@ -180,6 +180,8 @@ function Solutions() {
           backgroundImage: `url("/img/photo17.png")`,
           height: 1083,
         }}
+        data-aos="fade-down"
+        data-aos-duration="1500"
       >
         <div className="text-left text-white container mx-auto max-w-[1540px] flex-col items-start gap-[64px] justify-start responsive-padding">
           <div className="flex flex-col gap-[41px]">
@@ -205,21 +207,37 @@ function Solutions() {
         </div>
       </div>
       <div className="flex flex-col gap-[31px] container mx-auto pt-[130px] items-center responsive-padding">
-        <p className="text-secondary text-center w-full font-chakra text-[51.73px] font-medium tracking-normal pb-[10px]">
+        <p
+          className="text-secondary text-center w-full font-chakra text-[51.73px] font-medium tracking-normal pb-[10px]"
+          data-aos="zoom-in-right"
+          data-aos-duration="1500"
+        >
           Secure, Simplify, Succeed: <br /> Revolutionizing Workforce Identity
           with One37
         </p>
-        <p className="w-full sm:w-full text-[#A4A4A4] xl:w-[1147px] text-center font-chakra text-[24px] font-normal leading-[135%] tracking-[0.223px] pb-[10px]">
+        <p
+          className="w-full sm:w-full text-[#A4A4A4] xl:w-[1147px] text-center font-chakra text-[24px] font-normal leading-[135%] tracking-[0.223px] pb-[10px]"
+          data-aos="zoom-in-right"
+          data-aos-duration="1500"
+        >
           In the rapidly evolving digital landscape, enterprises face
           unprecedented challenges in managing workforce identities. One37's
           decentralized digital identity platform presents a transformative
           solution that addresses these challenges head-on.
         </p>
-        <p className="flex text-primary text-center font-rubik text-[33px] font-normal leading-[135%] tracking-[0.223px] pt-[41px]">
+        <p
+          className="flex text-primary text-center font-rubik text-[33px] font-normal leading-[135%] tracking-[0.223px] pt-[41px]"
+          data-aos="zoom-in-right"
+          data-aos-duration="1500"
+        >
           Enterprises today grapple with multiple issues
         </p>
         <div className="grid pt-[62px] gap-[50px] lg:grid-cols-2 lg:grid-rows-2 lg:gap-[50px] xl:grid-cols-3 xl:grid-rows-1 xl:gap-[50px] max-w-[1450px] responsive-padding">
-          <div className="flex flex-col py-[31px] px-[29px] gap-[19px] items-center rounded-[24px] border-[3px] border-solid border-[#4B1790]">
+          <div
+            className="flex flex-col py-[31px] px-[29px] gap-[19px] items-center rounded-[24px] border-[3px] border-solid border-[#4B1790]"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             <span className="w-full text-center text-secondary text-[33px] font-normal leading-[135%] tracking-[0.272px]">
               Data Breach Risks
             </span>
@@ -232,7 +250,11 @@ function Solutions() {
               Centralized databases are enticing targets for cyber-attacks.
             </span>
           </div>
-          <div className="flex flex-col py-[31px] px-[29px] gap-[19px] items-center rounded-[24px] border-[3px] border-solid border-[#4B1790]">
+          <div
+            className="flex flex-col py-[31px] px-[29px] gap-[19px] items-center rounded-[24px] border-[3px] border-solid border-[#4B1790]"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <span className="w-full text-center text-secondary text-[33px] font-normal leading-[135%] tracking-[0.272px]">
               Operational Costs
             </span>
@@ -245,7 +267,11 @@ function Solutions() {
               Managing identity systems is resource-intensive.
             </span>
           </div>
-          <div className="flex flex-col py-[31px] px-[29px] gap-[19px] items-center rounded-[24px] border-[3px] border-solid border-[#4B1790]">
+          <div
+            className="flex flex-col py-[31px] px-[29px] gap-[19px] items-center rounded-[24px] border-[3px] border-solid border-[#4B1790]"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             <span className="w-full text-center text-secondary text-[33px] font-normal leading-[135%] tracking-[0.272px]">
               Fraud Risks
             </span>
@@ -266,8 +292,14 @@ function Solutions() {
           src="/img/Volt.svg"
           className="flex w-[351px] h-[351px]"
           alt="Volt"
+          data-aos="zoom-in-right"
+          data-aos-duration="1500"
         />
-        <div className="flex flex-col gap-[64px] items-center">
+        <div
+          className="flex flex-col gap-[64px] items-center"
+          data-aos="zoom-out-left"
+          data-aos-duration="1500"
+        >
           <span className="flex text-center text-[52px] font-chakra font-medium text-secondary leading-[135%] tracking-[0.233px]">
             Key Features
           </span>
@@ -328,13 +360,21 @@ function Solutions() {
         </div>
       </div>
       <div className="flex flex-col gap-[82px] pt-[133px] items-center max-w-[1540px] mx-auto container responsive-padding">
-        <span className="flex max-w-[781px] text-center font-chakra text-secondary text-[51px] font-medium leading-[135%] tracking-[0.223px]">
+        <span
+          className="flex max-w-[781px] text-center font-chakra text-secondary text-[51px] font-medium leading-[135%] tracking-[0.223px]"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
           Benefits Template for the products without images
         </span>
         <div className="grid grid-cols-1 grid-rows-2 gap-10 sm:grid-cols-1 sm:grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 sm:gap-10 ">
           <div className="flex flex-col gap-10 sm:gap-10 lg:gap-[144px]">
             {/* Card */}
-            <div className="relative flex flex-col gap-[20px] px-[18px] pt-[36px] pb-[20px] items-center rounded-[10.5px] border-[#4B1790] border-[4px] max-w-[633px]">
+            <div
+              className="relative flex flex-col gap-[20px] px-[18px] pt-[36px] pb-[20px] items-center rounded-[10.5px] border-[#4B1790] border-[4px] max-w-[633px]"
+              data-aos="flip-right"
+              data-aos-duration="1000"
+            >
               <div className="flex flex-row gap-[8px]">
                 <img
                   src="/img/CheckIcon.svg"
@@ -353,7 +393,11 @@ function Solutions() {
                 </span>
               </div>
             </div>
-            <div className="relative flex flex-col gap-[20px] px-[18px] pt-[36px] pb-[20px] items-center rounded-[10.5px] border-[#4B1790] border-[4px] max-w-[633px]">
+            <div
+              className="relative flex flex-col gap-[20px] px-[18px] pt-[36px] pb-[20px] items-center rounded-[10.5px] border-[#4B1790] border-[4px] max-w-[633px]"
+              data-aos="flip-right"
+              data-aos-duration="1500"
+            >
               <div className="flex flex-row gap-[8px]">
                 <img
                   src="/img/CheckIcon.svg"
@@ -374,7 +418,11 @@ function Solutions() {
             </div>
           </div>
           <div className="flex flex-col pt-0 sm:gap-10 lg:gap-[144px] lg:pt-[100px] sm:pt-0">
-            <div className="relative flex flex-col gap-[20px] px-[18px] pt-[36px] pb-[20px] items-center rounded-[10.5px] border-[#4B1790] border-[4px] max-w-[633px]">
+            <div
+              className="relative flex flex-col gap-[20px] px-[18px] pt-[36px] pb-[20px] items-center rounded-[10.5px] border-[#4B1790] border-[4px] max-w-[633px]"
+              data-aos="flip-left"
+              data-aos-duration="1500"
+            >
               <div className="flex flex-row gap-[8px]">
                 <img
                   src="/img/CheckIcon.svg"
@@ -393,7 +441,11 @@ function Solutions() {
                 </span>
               </div>
             </div>
-            <div className="relative flex flex-col gap-[20px] px-[18px] pt-[36px] pb-[20px] items-center rounded-[10.5px] border-[#4B1790] border-[4px] max-w-[633px]">
+            <div
+              className="relative flex flex-col gap-[20px] px-[18px] pt-[36px] pb-[20px] items-center rounded-[10.5px] border-[#4B1790] border-[4px] max-w-[633px]"
+              data-aos="flip-left"
+              data-aos-duration="1500"
+            >
               <div className="flex flex-row gap-[8px]">
                 <img
                   src="/img/CheckIcon.svg"
@@ -416,11 +468,19 @@ function Solutions() {
         </div>
       </div>
       <div className="mt-[135px] flex flex-col items-center bg-product-grid gap-[83px] px-[223px] py-[56px]">
-        <div className="flex text-center text-white text-[52px] font-chakra font-medium leading-normal">
+        <div
+          className="flex text-center text-white text-[52px] font-chakra font-medium leading-normal"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           Discover One37's Diverse Range of Solutions
         </div>
         <div className="container mx-auto max-w-[1540px] grid grid-cols-1 grid-rows-4 sm: 2xl:grid-cols-4 lg:grid-cols-2 lg:grid-rows-2 2xl:grid-rows-1 gap-[72px] responsive-padding">
-          <div className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background">
+          <div
+            className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div className="flex flex-col gap-[16px]">
               <span className="flex text-[24px] font-medium">Product No.1</span>
               <span className="text-[22px] font-normal leading-[135%] tracking-[0.233px]">
@@ -432,7 +492,11 @@ function Solutions() {
               Learn More
             </div>
           </div>
-          <div className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background">
+          <div
+            className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div className="flex flex-col gap-[16px]">
               <span className="flex text-[24px] font-medium">Product No.2</span>
               <span className="text-[22px] font-normal leading-[135%] tracking-[0.233px]">
@@ -444,7 +508,11 @@ function Solutions() {
               Learn More
             </div>
           </div>
-          <div className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background">
+          <div
+            className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div className="flex flex-col gap-[16px]">
               <span className="flex text-[24px] font-medium">Product No.3</span>
               <span className="text-[22px] font-normal leading-[135%] tracking-[0.233px]">
@@ -456,7 +524,11 @@ function Solutions() {
               Learn More
             </div>
           </div>
-          <div className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background">
+          <div
+            className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div className="flex flex-col gap-[16px]">
               <span className="flex text-[24px] font-medium">Product No.4</span>
               <span className="text-[22px] font-normal leading-[135%] tracking-[0.233px]">
@@ -473,7 +545,7 @@ function Solutions() {
           See All Products
         </button>
       </div>
-      <div className="flex flex-col gap-[130px] mx-auto container py-[130px] responsive-padding">
+      <div className="flex flex-col gap-[130px] mx-auto container responsive-padding max-w-[1540px]">
         {/* Brands */}
         <Brands />
         <Accordion />
@@ -484,19 +556,21 @@ function Solutions() {
           backgroundImage: `url("/img/people.png")`,
           height: 750,
         }}
+        data-aos="fade-down"
+        data-aos-duration="1500"
       >
-        <div className="flex flex-col gap-[42px] items-center  rounded-[5px] bg-white/85 min-w-[810px]">
-          <span className="flex pt-[45px] text-black font-chakra text-[52px] font-medium leading-normal">
+        <div className="flex flex-col gap-[42px] items-center rounded-[5px] bg-white/85 max-w-[800px] w-full mx-10 sm:w-full sm:mx-10 lg:min-w-[810px] responsive-padding">
+          <span className="flex pt-[45px] text-black font-chakra text-[52px] font-medium leading-normal text-center">
             Empower your team
           </span>
-          <div className="flex text-black font-rubik text-[25px] font-normal leading-[135%] tracking-[0.223px]">
+          <div className="flex text-black font-rubik text-[25px] font-normal leading-[135%] tracking-[0.223px] text-center">
             Drive your business forward with transformative solutions.
           </div>
-          <div className="flex flex-row justify-center items-center gap-[25px] pb-[43px]">
+          <div className="flex flex-col sm:flex-col md:flex-row justify-center items-center gap-[25px] pb-[43px]">
             <button className="flex py-[25px] px-[33px] text-center rounded-[8px] bg-btn-grid text-white text-[25px] font-medium leading-normal">
               Book Demo
             </button>
-            <button className="flex py-[25px] px-[33px] text-center rounded-[8px] border-[#4B1790] border-[2px] border-solid text-primary text-[25px] font-medium leading-normal">
+            <button className="flex py-[25px] px-[33px] text-center rounded-[8px] border-[#4B1790] border-[2px] border-solid  text-secondary text-[25px] font-medium leading-normal">
               Talk to Sales
             </button>
           </div>

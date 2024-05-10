@@ -62,7 +62,7 @@ const Brands = () => {
           alt="Emirates"
         />
       </div>
-      <span className="absolute hidden 2xl:block top-[130px] z-0 xl:text-[200px] 2xl:text-[293px] left-[20px] font-chakra text-secondary font-bold">
+      <span className="absolute hidden 2xl:block top-[130px] z-0 xl:text-[200px] 2xl:text-[288px] left-[20px] font-chakra text-secondary font-bold">
         Trusted By
       </span>
     </div>

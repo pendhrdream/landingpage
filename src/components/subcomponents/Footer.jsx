@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="flex container mx-auto responsive-padding flex-col gap-[20px]">
+    <div className="flex container mx-auto responsive-padding flex-col gap-[20px] max-w-[1540px]">
       <div className="flex flex-row flex-wrap justify-between py-[83px] border-t-[1px] border-solid border-b-[1px] border-[#0B1623]">
         <div className="flex flex-col gap-[25px]">
           <span className="text-secondary font-chakra text-[25px] font-medium leading-[135%] tracking-[0.223px]">

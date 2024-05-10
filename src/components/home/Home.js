@@ -73,6 +73,8 @@ function Home() {
           backgroundImage: `url("/img/photo17.png")`,
           height: 1083,
         }}
+        data-aos="slide-up"
+        data-aos-duration="3000"
       >
         <div className="text-left text-white container mx-auto max-w-[1540px] flex-col items-start gap-[64px] justify-start px-[10px]">
           <div className="flex flex-col gap-[41px]">
@@ -102,10 +104,18 @@ function Home() {
       <div className="flex flex-col gap-[130px] responsive-padding">
         <div className="relative max-w-[1540px] container mx-auto flex flex-col gap-[111.7px]">
           <div className="flex flex-col gap-[117px]">
-            <p className="flex text-[51.73px] font-chakra text-secondary font-medium tracking-[0.233px]">
+            <p
+              className="flex text-[51.73px] font-chakra text-secondary font-medium tracking-[0.233px]"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               Mission Statement
             </p>
-            <p className="flex text-primary font-rubik text-[33px] font-normal leading-[27.934px]tracking-[0.233px]">
+            <p
+              className="flex text-primary font-rubik text-[33px] font-normal leading-[27.934px]tracking-[0.233px]"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               At One37, we are pioneering the future of data <br /> monetization
               by empowering businesses and <br /> individuals with secure,
               transparent, and <br /> efficient access to digital identity
@@ -113,7 +123,11 @@ function Home() {
             </p>
           </div>
           <div className="flex flex-col sm:flex-col lg:flex-row gap-[45.5px]">
-            <div className="flex flex-1 p-[31px] items-center justify-content rounded-[5.173px] border-[3.1px] border-solid border-secondary bg-[rgba(255, 255, 255, 0.85)] shadow-[0px 4.138px 4.138px 0px rgba(0, 0, 0, 0.25)]">
+            <div
+              className="flex flex-1 p-[31px] items-center justify-content rounded-[5.173px] border-[3.1px] border-solid border-secondary bg-[rgba(255, 255, 255, 0.85)] shadow-[0px 4.138px 4.138px 0px rgba(0, 0, 0, 0.25)]"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <span className="text-primary font-rubik text-[33.1px] font-normal leading-[27.934px]tracking-[0.233px]">
                 Our mission is to{" "}
                 <span className="text-secondary">
@@ -123,7 +137,11 @@ function Home() {
                 opportunities in the digital economy.
               </span>
             </div>
-            <div className="flex flex-1 p-[31px] items-center justify-content rounded-[5.173px] border-[3.1px] border-solid border-secondary bg-[rgba(255, 255, 255, 0.85)] shadow-[0px 4.138px 4.138px 0px rgba(0, 0, 0, 0.25)]">
+            <div
+              className="flex flex-1 p-[31px] items-center justify-content rounded-[5.173px] border-[3.1px] border-solid border-secondary bg-[rgba(255, 255, 255, 0.85)] shadow-[0px 4.138px 4.138px 0px rgba(0, 0, 0, 0.25)]"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <span className="text-primary font-rubik text-[33.1px] font-normal leading-[27.934px]tracking-[0.233px]">
                 We are{" "}
                 <span className="text-secondary">
@@ -139,7 +157,11 @@ function Home() {
           <p className="flex text-secondary text-center font-chakra text-[51.73px] font-medium tracking-normal pb-[10px]">
             Unlock the Potential <br /> Transform Data into Value with One37
           </p>
-          <div className="flex flex-col sm:flex-col md:flex-row px-[20.7px] items-center justify-between sm:gap-[50px] xl:gap-[256px] rounded-[5px] bg-layout-grid">
+          <div
+            className="flex flex-col sm:flex-col md:flex-row px-[20.7px] items-center justify-between sm:gap-[50px] xl:gap-[256px] rounded-[5px] bg-layout-grid"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <div className="flex flex-col py-[25px] gap-[25px] font-rubik ">
               <p className="flex text-secondary text-center font-chakra text-[41px] font-medium tracking-[0.233x]">
                 Enhanced Data Value <br /> and Revenue Streams
@@ -165,7 +187,11 @@ function Home() {
               alt="Revenue"
             />
           </div>
-          <div className="flex flex-col sm:flex-col md:flex-row px-[20.7px] items-center justify-between sm:gap-[50px] xl:gap-[256px] rounded-[5px] bg-layout-grid">
+          <div
+            className="flex flex-col sm:flex-col md:flex-row px-[20.7px] items-center justify-between sm:gap-[50px] xl:gap-[256px] rounded-[5px] bg-layout-grid"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <div className="flex flex-col py-[25px] gap-[25px] font-rubik ">
               <p className="flex text-secondary text-center font-chakra text-[41px] font-medium tracking-[0.233x]">
                 Secure and Ethical <br /> Data Monetization
@@ -193,7 +219,11 @@ function Home() {
               alt="Security"
             />
           </div>
-          <div className="flex flex-col sm:flex-col md:flex-row px-[20.7px] items-center justify-between sm:gap-[50px] xl:gap-[256px] rounded-[5px] bg-layout-grid">
+          <div
+            className="flex flex-col sm:flex-col md:flex-row px-[20.7px] items-center justify-between sm:gap-[50px] xl:gap-[256px] rounded-[5px] bg-layout-grid"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <div className="flex flex-col py-[25px] gap-[25px] font-rubik ">
               <p className="flex text-secondary text-center font-chakra text-[41px] font-medium tracking-[0.233x]">
                 Operational Efficiency <br /> and Easy Integration
@@ -286,7 +316,11 @@ function Home() {
             with One37
           </span>
           <div className="grid sm:grid-rows-4 sm:cols-1 md:grid-rows-2 md:grid-cols-2 gap-x-[64px] gap-y-[85px]">
-            <div className="flex flex-col sm:flex-col lg:flex-row gap-[64px] px-[23px] py-[40px] bg-card-background rounded-[5px] text-white justify-between">
+            <div
+              className="flex flex-col sm:flex-col lg:flex-row gap-[64px] px-[23px] py-[40px] bg-card-background rounded-[5px] text-white justify-between"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               <div className="flex flex-col gap-[16px] justify-between ">
                 <span className="flex text-[33px] font-rubik font-normal leading-[27.934px]tracking-[0.233px]">
                   Data Privacy and <br /> Compliance
@@ -305,7 +339,10 @@ function Home() {
                 />
               </div>
             </div>
-            <div className="flex flex-col sm:flex-col lg:flex-row gap-[64px] px-[23px] py-[40px] bg-card-background rounded-[5px] text-white justify-between">
+            <div
+              className="flex flex-col sm:flex-col lg:flex-row gap-[64px] px-[23px] py-[40px] bg-card-background rounded-[5px] text-white justify-between"
+              data-aos-duration="1500"
+            >
               <div className="flex flex-col gap-[16px] justify-between ">
                 <span className="flex text-[33px] font-rubik font-normal leading-[27.934px]tracking-[0.233px]">
                   Enhanced Trust
@@ -324,7 +361,10 @@ function Home() {
                 />
               </div>
             </div>
-            <div className="flex flex-col sm:flex-col lg:flex-row gap-[64px] px-[23px] py-[40px] bg-card-background rounded-[5px] text-white justify-between">
+            <div
+              className="flex flex-col sm:flex-col lg:flex-row gap-[64px] px-[23px] py-[40px] bg-card-background rounded-[5px] text-white justify-between"
+              data-aos-duration="1800"
+            >
               <div className="flex flex-col gap-[16px] justify-between">
                 <span className="flex text-[33px] font-rubik font-normal leading-[27.934px]tracking-[0.233px]">
                   Simplified Access <br /> Management
@@ -342,7 +382,11 @@ function Home() {
                 />
               </div>
             </div>
-            <div className="flex flex-col sm:flex-col lg:flex-row gap-[64px] px-[23px] py-[40px] bg-card-background rounded-[5px] text-white justify-between">
+            <div
+              className="flex flex-col sm:flex-col lg:flex-row gap-[64px] px-[23px] py-[40px] bg-card-background rounded-[5px] text-white justify-between"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <div className="flex flex-col gap-[16px] justify-between">
                 <span className="flex text-[33px] font-rubik font-normal leading-[27.934px]tracking-[0.233px]">
                   Reduced IT Friction
@@ -370,7 +414,11 @@ function Home() {
         <Brands />
 
         <div className="flex flex-col gap-[86px]">
-          <div className="flex flex-col gap-[24px] px-[143px]">
+          <div
+            className="flex flex-col gap-[24px] px-[143px]"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+          >
             <span className="flex text-secondary text-[30px] sm:text-[40px] lg:text-[52px] font-medium leading-normal text-center px-[80px] font-chakra">
               Discover One37's Product Suite <br /> Pioneering Digital Identity
               Management
@@ -386,7 +434,11 @@ function Home() {
           <div className="flex flex-col md:flex-col lg:flex-row gap-[78px]">
             <div className="flex flex-col gap-[144px]">
               {/* Card */}
-              <div className="relative flex flex-row lg:flex-col 2xl:flex-row gap-[38px] pl-[26px] pt-[36px] pr-[33px] pb-[15px] rounded-[10.5px] border-[#4B1790] border-[4px]">
+              <div
+                className="relative flex flex-row lg:flex-col 2xl:flex-row gap-[38px] pl-[26px] pt-[36px] pr-[33px] pb-[15px] rounded-[10.5px] border-[#4B1790] border-[4px]"
+                data-aos="fade-down"
+                data-aos-duration="1500"
+              >
                 <div className="flex flex-col justify-between gap-[33px] min-w-[215px] items-center">
                   <img
                     src="/img/Wallet1.svg"
@@ -466,7 +518,11 @@ function Home() {
                 </div>
               </div>
               {/* Card */}
-              <div className="relative flex flex-row lg:flex-col 2xl:flex-row gap-[38px] pl-[26px] pt-[36px] pr-[33px] pb-[15px] rounded-[10.5px] border-[#4B1790] border-[4px]">
+              <div
+                className="relative flex flex-row lg:flex-col 2xl:flex-row gap-[38px] pl-[26px] pt-[36px] pr-[33px] pb-[15px] rounded-[10.5px] border-[#4B1790] border-[4px]"
+                data-aos="fade-down"
+                data-aos-duration="1500"
+              >
                 <div className="flex flex-col justify-between gap-[33px] min-w-[215px] items-center">
                   <img
                     src="/img/Workflow.png"
@@ -546,7 +602,11 @@ function Home() {
             </div>
             <div className="flex flex-col gap-[144px] pt-[196px]">
               {/* Card */}
-              <div className="relative flex flex-row lg:flex-col 2xl:flex-row gap-[38px] pl-[26px] pt-[36px] pr-[33px] pb-[15px] rounded-[10.5px] border-[#4B1790] border-[4px]">
+              <div
+                className="relative flex flex-row lg:flex-col 2xl:flex-row gap-[38px] pl-[26px] pt-[36px] pr-[33px] pb-[15px] rounded-[10.5px] border-[#4B1790] border-[4px]"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div className="flex flex-col justify-between gap-[33px] min-w-[215px] items-center">
                   <img
                     src="/img/BusinessConnector.png"
@@ -624,7 +684,11 @@ function Home() {
                 </div>
               </div>
               {/* Card */}
-              <div className="relative flex flex-row lg:flex-col 2xl:flex-row gap-[38px] pl-[26px] pt-[36px] pr-[33px] pb-[15px] rounded-[10.5px] border-[#4B1790] border-[4px]">
+              <div
+                className="relative flex flex-row lg:flex-col 2xl:flex-row gap-[38px] pl-[26px] pt-[36px] pr-[33px] pb-[15px] rounded-[10.5px] border-[#4B1790] border-[4px]"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div className="flex flex-col justify-between gap-[33px] min-w-[215px] items-center">
                   <img
                     src="/img/BusinessStudio.png"
@@ -712,6 +776,8 @@ function Home() {
           backgroundImage: `url("/img/people.png")`,
           height: 750,
         }}
+        data-aos="fade-in"
+        data-aos-duration="1500"
       >
         <div className="flex flex-col gap-[42px] items-center rounded-[5px] bg-white/85 w-full max-w-[800px] mx-10 sm:w-full sm:mx-10 lg:min-w-[810px] responsive-padding">
           <span className="flex pt-[45px] text-black font-chakra text-[52px] font-medium leading-normal text-center">

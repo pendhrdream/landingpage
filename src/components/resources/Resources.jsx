@@ -5,15 +5,19 @@ import Footer from "../subcomponents/Footer";
 const Resources = () => {
   return (
     <div className="flex w-full flex-col gap-[130px] font-rubik">
-      <div className="flex w-full mt-[130px] py-[72px] bg-carousel-linear">
+      <div className="w-full mt-[130px] py-[72px] bg-carousel-linear">
         <ArticleCarousel />
       </div>
       <div className="flex container mx-auto max-w-[1540px] flex-col gap-[66px]">
         <span className="flex text-secondary font-chakra text-[51px] font-medium leading-normal">
           Latest Articles
         </span>
-        <div className="w-full grid gap-y-[66px] grid-cols-3 grid-rows-2">
-          <div className="flex flex-col w-[413px] gap-[16px]">
+        <div className="w-full grid grid-cols-1 grid-rows-6 gap-y-5 md:grid-cols-2 md:grid-rows-3 xl:grid-cols-3 xl:grid-rows-2 xl:gap-y-[66px] md:gap-y-10 responsive-padding">
+          <div
+            className="flex flex-col w-[413px] gap-[16px] mx-auto container"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div className="flex h-[270px] text-center place-items-center rounded-[10px] border-[2px] border-solid border-[#4B1790] bg-[#EEE]">
               <span className="text-primary text-[24px] font-normal leading-[135%] tracking-[0.233px]">
                 A placeholder for a related image for the article
@@ -36,7 +40,11 @@ const Resources = () => {
               labore et dolore magna aliqua.
             </span>
           </div>
-          <div className="flex flex-col w-[413px] gap-[16px]">
+          <div
+            className="flex flex-col w-[413px] gap-[16px] mx-auto container"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div className="flex h-[270px] text-center place-items-center rounded-[10px] border-[2px] border-solid border-[#4B1790] bg-[#EEE]">
               <span className="text-primary text-[24px] font-normal leading-[135%] tracking-[0.233px]">
                 A placeholder for a related image for the article
@@ -59,7 +67,11 @@ const Resources = () => {
               labore et dolore magna aliqua.
             </span>
           </div>
-          <div className="flex flex-col w-[413px] gap-[16px]">
+          <div
+            className="flex flex-col w-[413px] gap-[16px] mx-auto container"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div className="flex h-[270px] text-center place-items-center rounded-[10px] border-[2px] border-solid border-[#4B1790] bg-[#EEE]">
               <span className="text-primary text-[24px] font-normal leading-[135%] tracking-[0.233px]">
                 A placeholder for a related image for the article
@@ -82,7 +94,11 @@ const Resources = () => {
               labore et dolore magna aliqua.
             </span>
           </div>
-          <div className="flex flex-col w-[413px] gap-[16px]">
+          <div
+            className="flex flex-col w-[413px] gap-[16px] mx-auto container"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div className="flex h-[270px] text-center place-items-center rounded-[10px] border-[2px] border-solid border-[#4B1790] bg-[#EEE]">
               <span className="text-primary text-[24px] font-normal leading-[135%] tracking-[0.233px]">
                 A placeholder for a related image for the article
@@ -105,7 +121,11 @@ const Resources = () => {
               labore et dolore magna aliqua.
             </span>
           </div>
-          <div className="flex flex-col w-[413px] gap-[16px]">
+          <div
+            className="flex flex-col w-[413px] gap-[16px] mx-auto container"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div className="flex h-[270px] text-center place-items-center rounded-[10px] border-[2px] border-solid border-[#4B1790] bg-[#EEE]">
               <span className="text-primary text-[24px] font-normal leading-[135%] tracking-[0.233px]">
                 A placeholder for a related image for the article
@@ -128,7 +148,11 @@ const Resources = () => {
               labore et dolore magna aliqua.
             </span>
           </div>
-          <div className="flex flex-col w-[413px] gap-[16px]">
+          <div
+            className="flex flex-col w-[413px] gap-[16px] mx-auto container"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div className="flex h-[270px] text-center place-items-center rounded-[10px] border-[2px] border-solid border-[#4B1790] bg-[#EEE]">
               <span className="text-primary text-[24px] font-normal leading-[135%] tracking-[0.233px]">
                 A placeholder for a related image for the article
@@ -153,7 +177,7 @@ const Resources = () => {
           </div>
         </div>
       </div>
-      <div className="flex bg-layout-grid flex-col gap-[66px] items-center px-[220px] py-[50px]  mx-auto container max-w-[1540px]">
+      <div className="flex bg-layout-grid flex-col gap-[66px] items-center mx-auto container max-w-[1540px]">
         <span className="flex text-secondary text-[51px] font-medium leading-normal text-center">
           Find the article you like in the categories
         </span>
@@ -205,7 +229,11 @@ const Resources = () => {
           </div>
         </div>
       </div>
-      <div className="flex pl-[220px] flex-col gap-[33px] mx-auto container max-w-[1540px]">
+      <div
+        className="flex pl-[220px] flex-col gap-[33px] mx-auto container max-w-[1540px]"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+      >
         <span className="flex text-secondary font-chakra font-medium leading-normal">
           Category No.2
         </span>
@@ -408,7 +436,11 @@ const Resources = () => {
           </Carousel>
         </div>
       </div>
-      <div className="flex pl-[220px] flex-col gap-[33px] mx-auto container max-w-[1540px]">
+      <div
+        className="flex pl-[220px] flex-col gap-[33px] mx-auto container max-w-[1540px]"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+      >
         <span className="flex text-secondary font-chakra font-medium leading-normal">
           Category No.1
         </span>
@@ -611,18 +643,26 @@ const Resources = () => {
           </Carousel>
         </div>
       </div>
-      <div className="flex flex-col gap-[50px] items-center bg-btn-grid text-white py-[78px]">
+      <div className="flex flex-col gap-[50px] items-center bg-btn-grid text-white py-[78px] responsive-padding justify-center">
         <span className="flex font-chakra text-[52px] font-medium leading-normal text-center">
           Join our newsletter to be updated with latest news
         </span>
-        <div className="flex flex-row gap-[70px] items-center">
-          <textarea className="flex w-[590px] h-[50px] rounded-[5px] border-[1px] border-solid border-[#D2D2D2] bg-white" />
+        <div
+          className="flex flex-col xl:flex-row gap-[70px] items-center"
+          data-aos="zoom-out"
+          data-aos-duration="1500"
+        >
+          <textarea className="flex w-full md:w-[590px] h-[50px] rounded-[5px] border-[1px] border-solid border-[#D2D2D2] bg-white" />
           <button className="flex font-rubik px-[33px] h-[50px] rounded-[8px] border-[1px] border-solid border-white text-center text-[24px] font-normal leading-normal items-center">
             Subscribe
           </button>
         </div>
       </div>
-      <div className="flex flex-col gap-[33px] container mx-auto max-w-[1540px]">
+      <div
+        className="flex flex-col gap-[33px] container mx-auto max-w-[1540px] responsive-padding"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+      >
         <div className="flex flex-col gap-[16px]">
           <span className="text-secondary text-[52px] font-chakra font-medium leading-normal">
             Check us out!
@@ -632,8 +672,8 @@ const Resources = () => {
             YouTube Channel.
           </span>
         </div>
-        <div className="flex flex-row pt-[37px] gap-[80px] justify-between items-center">
-          <div className="flex flex-row gap-[16.5px]">
+        <div className="flex flex-col xl:flex-row pt-[37px] gap-[80px] justify-between items-center">
+          <div className="flex flex-col 2xl:flex-row gap-[16.5px]">
             <div className="flex flex-col px-[91px] pt-[20px] pb-[94px] rounded-t-[7px] rounded-l-[7px] w-[412px] bg-[#EEE] flex-shrink-0">
               <span className="text-primary text-[24px] font-normal leading-[135%] tracking-[0.233px]">
                 A placeholder for video
@@ -659,7 +699,7 @@ const Resources = () => {
               </span>
             </div>
           </div>
-          <div className="flex flex-row gap-[16.5px]">
+          <div className="flex flex-col 2xl:flex-row gap-[16.5px]">
             <div className="flex flex-col px-[91px] pt-[20px] pb-[94px] rounded-t-[7px] rounded-l-[7px] w-[412px] bg-[#EEE] flex-shrink-0">
               <span className="text-primary text-[24px] font-normal leading-[135%] tracking-[0.233px]">
                 A placeholder for video
@@ -692,52 +732,70 @@ const Resources = () => {
           </span>
         </div>
       </div>
-      <div className="flex flex-col gap-[33px] container mx-auto max-w-[1540px]">
+      <div
+        className="flex flex-col gap-[33px] container mx-auto max-w-[1540px]"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+      >
         <div className="flex flex-col gap-[16px]">
-          <span className="flex font-chakra text-secondary text-[51px] font-medium leading-normal">
+          <span className="w-full text-center font-chakra text-secondary text-[51px] font-medium leading-normal">
             Certifications
           </span>
-          <span className="flex text-primary text-[33px] font-normal leading-[135%] tracking-[0.233px]">
+          <span className="w-full text-center text-primary text-[33px] font-normal leading-[135%] tracking-[0.233px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing
           </span>
         </div>
-        <div className="flex flex-row gap-[60px]">
-          <div className="flex w-[413px] h-[413px] flex-1 px-[33px] py-[66px] text-center text-[51px] text-primary font-medium leading-[135%] tracking-[0.233px]">
+        <div className="flex flex-col md:flex-row gap-[60px] items-center justify-center">
+          <div className="flex w-[413px] h-[413px] flex-1 px-[33px] py-[66px] text-center text-[51px] text-primary font-medium leading-[135%] tracking-[0.233px] md:mx-auto md:container">
             placeholder for certification image
           </div>
           <div className="flex flex-col gap-[33px] justify-center">
-            <span className="text-secondary text-[41px] font-medium leading-normal">
+            <span className="w-full text-secondary text-[41px] font-medium leading-normal text-center md:text-left">
               General Data Protection Regulation (GDPR):{" "}
             </span>
-            <span className="text-primary text-[33px] font-normal leading-normal">
+            <span className="w-full text-primary text-[33px] font-normal leading-normal text-center md:text-left">
               We prioritize user privacy and data protection rights, ensuring
               compliance with GDPR mandates.
             </span>
           </div>
         </div>
-        <div className="flex flex-row gap-[60px]">
-          <div className="flex w-[413px] h-[413px] flex-1 px-[33px] py-[66px] text-center text-[51px] text-primary font-medium leading-[135%] tracking-[0.233px]">
+        <div className="flex flex-col md:flex-row gap-[60px] items-center justify-center">
+          <div className="flex w-[413px] h-[413px] flex-1 px-[33px] py-[66px] text-center text-[51px] text-primary font-medium leading-[135%] tracking-[0.233px] md:mx-auto md:container">
             placeholder for certification image
           </div>
           <div className="flex flex-col gap-[33px] justify-center">
-            <span className="text-secondary text-[41px] font-medium leading-normal">
+            <span className="w-full text-secondary text-[41px] font-medium leading-normal text-center md:text-left">
               General Data Protection Regulation (GDPR):{" "}
             </span>
-            <span className="text-primary text-[33px] font-normal leading-normal">
+            <span className="w-full text-primary text-[33px] font-normal leading-normal text-center md:text-left">
               We prioritize user privacy and data protection rights, ensuring
               compliance with GDPR mandates.
             </span>
           </div>
         </div>
-        <div className="flex flex-row gap-[60px]">
-          <div className="flex w-[413px] h-[413px] flex-1 px-[33px] py-[66px] text-center text-[51px] text-primary font-medium leading-[135%] tracking-[0.233px]">
+        <div className="flex flex-col md:flex-row gap-[60px] items-center justify-center">
+          <div className="flex w-[413px] h-[413px] flex-1 px-[33px] py-[66px] text-center text-[51px] text-primary font-medium leading-[135%] tracking-[0.233px] md:mx-auto md:container">
             placeholder for certification image
           </div>
           <div className="flex flex-col gap-[33px] justify-center">
-            <span className="text-secondary text-[41px] font-medium leading-normal">
+            <span className="w-full text-secondary text-[41px] font-medium leading-normal text-center md:text-left">
               General Data Protection Regulation (GDPR):{" "}
             </span>
-            <span className="text-primary text-[33px] font-normal leading-normal">
+            <span className="w-full text-primary text-[33px] font-normal leading-normal text-center md:text-left">
+              We prioritize user privacy and data protection rights, ensuring
+              compliance with GDPR mandates.
+            </span>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row gap-[60px] items-center justify-center">
+          <div className="flex w-[413px] h-[413px] flex-1 px-[33px] py-[66px] text-center text-[51px] text-primary font-medium leading-[135%] tracking-[0.233px] md:mx-auto md:container">
+            placeholder for certification image
+          </div>
+          <div className="flex flex-col gap-[33px] justify-center">
+            <span className="w-full text-secondary text-[41px] font-medium leading-normal text-center md:text-left">
+              General Data Protection Regulation (GDPR):{" "}
+            </span>
+            <span className="w-full text-primary text-[33px] font-normal leading-normal text-center md:text-left">
               We prioritize user privacy and data protection rights, ensuring
               compliance with GDPR mandates.
             </span>

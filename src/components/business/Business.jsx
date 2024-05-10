@@ -11,6 +11,8 @@ const Business = () => {
           backgroundImage: `url("/img/photo17.png")`,
           height: 1083,
         }}
+        data-aos="fade-up"
+        data-aos-duration="1500"
       >
         <div className="text-left text-white container mx-auto max-w-[1540px] flex-col items-start gap-[64px] justify-start px-[10px]">
           <div className="flex flex-col gap-[41px]">
@@ -38,17 +40,29 @@ const Business = () => {
         </div>
       </div>
       <div className="flex flex-col gap-[31px] container mx-auto items-center responsive-padding">
-        <p className="text-secondary text-center w-full font-chakra text-[51.73px] font-medium tracking-normal pb-[10px]">
+        <p
+          className="text-secondary text-center w-full font-chakra text-[51.73px] font-medium tracking-normal pb-[10px]"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
           Craft and Manage Digital Identities with Precision
         </p>
-        <p className="w-full text-[#A4A4A4] w-[1147px] text-center font-chakra text-[24px] font-normal leading-[135%] tracking-[0.223px] pb-[10px]">
+        <p
+          className="w-full text-[#A4A4A4] w-[1147px] text-center font-chakra text-[24px] font-normal leading-[135%] tracking-[0.223px] pb-[10px]"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
           One37 Business Studio is a comprehensive suite that provides
           businesses with the tools needed to design, manage, and deploy digital
           identity solutions. It offers a user-friendly interface for creating
           workflows and managing digital credentials, making it accessible to
           non-technical staff.
         </p>
-        <div className="flex px-[20.7px] sm:flex-col md:flex-row items-center justify-between sm:gap-[50px] xl:gap-[256px] rounded-[5px] bg-layout-grid">
+        <div
+          className="flex px-[20.7px] sm:flex-col md:flex-row items-center justify-between sm:gap-[50px] xl:gap-[256px] rounded-[5px] bg-layout-grid"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <div className="flex flex-col py-[25px] gap-[25px] font-rubik ">
             <p className="flex text-secondary text-center font-chakra text-[41px] font-medium tracking-[0.233x]">
               Workflow Engine
@@ -72,7 +86,11 @@ const Business = () => {
             alt="CardWorkflow"
           />
         </div>
-        <div className="flex px-[20.7px] sm:flex-col md:flex-row items-center justify-between sm:gap-[50px] xl:gap-[256px] rounded-[5px] bg-layout-grid">
+        <div
+          className="flex px-[20.7px] sm:flex-col md:flex-row items-center justify-between sm:gap-[50px] xl:gap-[256px] rounded-[5px] bg-layout-grid"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <div className="flex flex-col py-[25px] gap-[25px] font-rubik ">
             <p className="flex text-secondary text-center font-chakra text-[41px] font-medium tracking-[0.233x]">
               Dynamic UI Configuration
@@ -92,11 +110,19 @@ const Business = () => {
         </div>
       </div>
       <div className="flex flex-col gap-[82px] pt-[133px] items-center max-w-[1540px] mx-auto container responsive-padding">
-        <span className="w-full max-w-[781px] text-center font-chakra text-secondary text-[51px] font-medium leading-[135%] tracking-[0.223px]">
+        <span
+          className="w-full max-w-[781px] text-center font-chakra text-secondary text-[51px] font-medium leading-[135%] tracking-[0.223px]"
+          data-aos="fade-in"
+          data-aos-duration="1500"
+        >
           Features & Benefits Template for the products without images
         </span>
         <div className="grid grid-cols-1 grid-rows-2 gap-10 sm:grid-cols-1 sm:grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 sm:gap-10 ">
-          <div className="flex flex-col gap-10 sm:gap-10 lg:gap-[144px]">
+          <div
+            className="flex flex-col gap-10 sm:gap-10 lg:gap-[144px]"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
             {/* Card */}
             <div className="relative flex flex-col gap-[20px] px-[18px] pt-[36px] pb-[20px] items-center rounded-[10.5px] border-[#4B1790] border-[4px]">
               <span className="flex pl-[30px] text-[20px] text-black font-rubik font-light leading-[135%] tracking-[0.223px]">
@@ -146,7 +172,11 @@ const Business = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col pt-0 sm:gap-10 lg:gap-[144px] sm:pt-0">
+          <div
+            className="flex flex-col pt-0 sm:gap-10 lg:gap-[144px] sm:pt-0"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
             <div className="relative flex flex-col gap-[20px] px-[18px] pt-[36px] pb-[20px] items-center rounded-[10.5px] border-[#4B1790] border-[4px]">
               <span className="flex pl-[30px] text-[20px] text-black font-rubik font-light leading-[135%] tracking-[0.223px]">
                 Define and manage the structure of digital credentials to ensure
@@ -197,11 +227,19 @@ const Business = () => {
         </div>
       </div>
       <div className="mt-[135px] w-full flex flex-col items-center bg-product-grid gap-[83px] py-[56px]">
-        <div className="flex text-center text-white text-[52px] font-chakra font-medium leading-normal">
+        <div
+          className="flex text-center text-white text-[52px] font-chakra font-medium leading-normal"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           Discover One37's Diverse Range of Solutions
         </div>
         <div className="container mx-auto max-w-[1540px] grid grid-cols-1 grid-rows-4 sm:grid-cols-1 sm:grid-rows-4lg:grid-cols-2 lg:grid-rows-2 2xl:grid-rows-1 2xl:grid-cols-4 sm:gap-[40px] 2xl:gap-[72px] responsive-padding">
-          <div className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background">
+          <div
+            className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background"
+            data-aos="flip-right"
+            data-aos-duration="1500"
+          >
             <div className="flex flex-col gap-[16px]">
               <span className="flex text-[24px] font-medium">Product No.1</span>
               <span className="text-[22px] font-normal leading-[135%] tracking-[0.233px]">
@@ -213,7 +251,11 @@ const Business = () => {
               Learn More
             </div>
           </div>
-          <div className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background">
+          <div
+            className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background"
+            data-aos="flip-right"
+            data-aos-duration="1500"
+          >
             <div className="flex flex-col gap-[16px]">
               <span className="flex text-[24px] font-medium">Product No.2</span>
               <span className="text-[22px] font-normal leading-[135%] tracking-[0.233px]">
@@ -225,7 +267,11 @@ const Business = () => {
               Learn More
             </div>
           </div>
-          <div className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background">
+          <div
+            className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background"
+            data-aos="flip-right"
+            data-aos-duration="1500"
+          >
             <div className="flex flex-col gap-[16px]">
               <span className="flex text-[24px] font-medium">Product No.3</span>
               <span className="text-[22px] font-normal leading-[135%] tracking-[0.233px]">
@@ -237,7 +283,11 @@ const Business = () => {
               Learn More
             </div>
           </div>
-          <div className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background">
+          <div
+            className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background"
+            data-aos="flip-right"
+            data-aos-duration="1500"
+          >
             <div className="flex flex-col gap-[16px]">
               <span className="flex text-[24px] font-medium">Product No.4</span>
               <span className="text-[22px] font-normal leading-[135%] tracking-[0.233px]">
@@ -265,6 +315,8 @@ const Business = () => {
           backgroundImage: `url("/img/people.png")`,
           height: 750,
         }}
+        data-aos="fade-up"
+        data-aos-duration="1500"
       >
         <div className="flex flex-col gap-[42px] items-center rounded-[5px] bg-white/85 max-w-[800px] w-full mx-10 sm:w-full sm:mx-10 lg:min-w-[810px] responsive-padding">
           <span className="flex pt-[45px] text-black font-chakra text-[52px] font-medium leading-normal text-center">

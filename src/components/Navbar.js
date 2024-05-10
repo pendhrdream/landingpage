@@ -15,7 +15,7 @@ function Navbar() {
   const menuItems = [
     { label: "Solutions", id: "solutions" },
     { label: "Business", id: "business" },
-    { label: "Products", id: "products" },
+    { label: "Resources", id: "resources" },
     { label: "Industries", id: "industries" },
     { label: "About", id: "about" },
   ];

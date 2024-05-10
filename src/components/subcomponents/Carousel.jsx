@@ -23,7 +23,7 @@ export function ArticleCarousel() {
   ];
   return (
     <Carousel
-      className="relative rounded-xl container mx-auto max-w-[1540px] font-rubik pb-[70px] responsive-padding"
+      className="relative rounded-xl container max-w-[1540px] mx-auto font-rubik pb-[70px]"
       prevArrow={({ handlePrev, activeIndex }) => (
         <IconButton
           variant="text"
@@ -74,10 +74,12 @@ export function ArticleCarousel() {
           </svg>
         </IconButton>
       )}
+      data-aos="fade-left"
+      data-aos-duration="1500"
     >
       {articles.map((article) => (
-        <div className="w-full flex flex-col sm:flex-col xl:flex-row gap-[190px] px-[20px] py-[20px] bg-[#FFFFFF10]">
-          <div className="flex flex-col gap-[33px] pt-[30px] pl-[20px] text-white">
+        <div className="w-full flex flex-row gap-[190px] px-[20px] py-[20px] bg-[#FFFFFF10] justify-center xl:justify-start">
+          <div className="flex-col gap-[33px] pt-[30px] pl-[20px] text-white hidden xl:flex">
             <div className="flex flex-row justify-between">
               <span className="text-[20px] font-normal leading-[135%] tracking-[0.233px]">
                 author of the article
@@ -98,7 +100,11 @@ export function ArticleCarousel() {
               Read full article
             </button>
           </div>
-          <img src={article.image} alt="" className="flex object-cover" />
+          <img
+            src={article.image}
+            alt=""
+            className="flex w-full xl:w-[750px] xl:h-[540px]  object-cover"
+          />
         </div>
       ))}
     </Carousel>

@@ -233,18 +233,36 @@ function Industries() {
           backgroundImage: `url("/img/photo17.png")`,
           height: 1083,
         }}
+        data-aos="fade-down"
+        data-aos-duration="1500"
       >
         <div className="relative flex text-left text-white container mx-auto max-w-[1540px] flex-col items-start gap-[41px] justify-start">
-          <span className="flex text-white text-[24px] font-normal leading-[135%] tracking-[0.233px]">
+          <span
+            className="flex text-white text-[24px] font-normal leading-[135%] tracking-[0.233px]"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
             Tackling Challenges with One37
           </span>
-          <span className="flex text-white font-chakra text-[74px] font-medium leading-[135%] tracking-[0.233px]">
+          <span
+            className="flex text-white font-chakra text-[74px] font-medium leading-[135%] tracking-[0.233px]"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
             Health
           </span>
-          <span className="flex text-white text-[33px] font-normal leading-[135%] tracking-[0.233px]">
+          <span
+            className="flex text-white text-[33px] font-normal leading-[135%] tracking-[0.233px]"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
             Cybersecurity & Privacy in Healthcare
           </span>
-          <div className="flex gap-[25px] mt-[52px]">
+          <div
+            className="flex gap-[25px] mt-[52px]"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
             <button className="flex h-[54px] items-center justify-center flex-shrink-0 rounded-[5.173px] bg-btn-grid p-[16.5px]">
               <p className="flex text-[24.831px] text-white font-medium leading-normal">
                 Book Demo
@@ -270,10 +288,18 @@ function Industries() {
       </div>
       <div className="flex container mx-auto max-w-[1540px] flex-col sm:flex-col xl:flex-row gap-[20px] sm:gap-[30px] xl:gap-[100px] 2xl:gap-[206px] responsive-padding">
         <div className="flex flex-col py-[25px] gap-[25px]">
-          <span className="text-secondary font-chakra text-[42px] font-medium leading-[135%] tracking-[0.223px]">
+          <span
+            className="text-secondary font-chakra text-[42px] font-medium leading-[135%] tracking-[0.223px]"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
             Cybersecurity & Privacy Challenges
           </span>
-          <span className="text-primary font-rubik text-[26.9px] font-normal leading-[135%] tracking-[0.223px]">
+          <span
+            className="text-primary font-rubik text-[26.9px] font-normal leading-[135%] tracking-[0.223px]"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
             Health providers face daunting challenges in protecting sensitive
             data against cyber-attacks, data breaches, and privacy violations.{" "}
             <br />
@@ -284,7 +310,11 @@ function Industries() {
             cybersecurity efforts.
           </span>
         </div>
-        <div className="flex flex-col items-center gap-[50px] min-w-[590px]">
+        <div
+          className="flex flex-col items-center gap-[50px] min-w-[590px]"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
           <span className="w-full text-center text-secondary text-[31px] font-medium leading-[135%] tracking-[0.233px]">
             Health sector encounters unique challenges that require robust
             solutions
@@ -292,11 +322,19 @@ function Industries() {
         </div>
       </div>
       <div className="flex container mx-auto max-w-[1540px] flex-col gap-[62px] responsive-padding">
-        <span className="w-full text-center font-chakra text-[52px] font-medium leading-normal">
+        <span
+          className="w-full text-center font-chakra text-[52px] font-medium leading-normal"
+          data-aos="flip-right-up"
+          data-aos-duration="1500"
+        >
           Industry at a Glance
         </span>
         <div className="w-full grid grid-cols-1 grid-rows-3 sm:grid-cols-1 sm:grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 gap-5 sm:gap-6 lg:gap-[101px]">
-          <div className="flex flex-col px-[16px] py-[20px] gap-[10px]">
+          <div
+            className="flex flex-col px-[16px] py-[20px] gap-[10px]"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
             <span className="w-full text-center bg-btn-grid clip-text text-[52px] font-medium leading-[135%] tracking-[0.223px] bg-clip-text">
               25%
             </span>
@@ -307,7 +345,11 @@ function Industries() {
               Increase in attacks on healthcare systems each year.
             </span>
           </div>
-          <div className="flex flex-col px-[16px] py-[20px] gap-[10px]">
+          <div
+            className="flex flex-col px-[16px] py-[20px] gap-[10px]"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
             <span className="w-full text-center bg-btn-grid clip-text text-[52px] font-medium leading-[135%] tracking-[0.223px] bg-clip-text">
               $11 million
             </span>
@@ -319,7 +361,11 @@ function Industries() {
               patient trust and operational continuity.
             </span>
           </div>
-          <div className="flex flex-col px-[16px] py-[20px] gap-[10px]">
+          <div
+            className="flex flex-col px-[16px] py-[20px] gap-[10px]"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
             <span className="w-full text-center bg-btn-grid clip-text text-[52px] font-medium leading-[135%] tracking-[0.223px] bg-clip-text">
               60%
             </span>
@@ -334,10 +380,18 @@ function Industries() {
         </div>
       </div>
       <div className="mt-[135px] w-full flex flex-col items-center bg-product-grid gap-[83px] py-[56px]">
-        <div className="flex text-center text-white text-[52px] font-chakra font-medium leading-normal">
+        <div
+          className="flex text-center text-white text-[52px] font-chakra font-medium leading-normal"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
           Discover One37's Diverse Range of Solutions
         </div>
-        <div className="container mx-auto max-w-[1540px] grid grid-cols-1 grid-rows-4 sm:grid-cols-1 sm:grid-rows-4lg:grid-cols-2 lg:grid-rows-2 2xl:grid-rows-1 2xl:grid-cols-4 sm:gap-[40px] 2xl:gap-[72px] responsive-padding">
+        <div
+          className="container mx-auto max-w-[1540px] grid grid-cols-1 grid-rows-4 sm:grid-cols-1 sm:grid-rows-4lg:grid-cols-2 lg:grid-rows-2 2xl:grid-rows-1 2xl:grid-cols-4 sm:gap-[40px] 2xl:gap-[72px] responsive-padding"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
           <div className="flex text-white font-rubik px-[16px] py-[33px] flex-col gap-[100px] rounded-[5px] bg-card-background">
             <div className="flex flex-col gap-[16px]">
               <span className="flex text-[24px] font-medium">Product No.1</span>
@@ -387,7 +441,11 @@ function Industries() {
             </div>
           </div>
         </div>
-        <button className="flex px-[33px] py-[25px] text-center rounded-[8px] border-[2px] border-solid border-white text-white font-rubik text-[24px] font-normal leading-normal">
+        <button
+          className="flex px-[33px] py-[25px] text-center rounded-[8px] border-[2px] border-solid border-white text-white font-rubik text-[24px] font-normal leading-normal"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
           See All Products
         </button>
       </div>
@@ -402,6 +460,8 @@ function Industries() {
           backgroundImage: `url("/img/people.png")`,
           height: 750,
         }}
+        data-aos="fade-down"
+        data-aos-duration="1500"
       >
         <div className="flex flex-col gap-[42px] items-center rounded-[5px] bg-white/85 max-w-[800px] w-full mx-10 sm:w-full sm:mx-10 lg:min-w-[810px] responsive-padding">
           <span className="flex pt-[45px] text-black font-chakra text-[52px] font-medium leading-normal text-center">
